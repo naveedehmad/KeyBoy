@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A000001293E4F0000000001 /* KeyBoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000000293E4F0000000001 /* KeyBoyApp.swift */; };
+		1A000003293E4F0000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000002293E4F0000000002 /* AppDelegate.swift */; };
+		1A000005293E4F0000000003 /* HotkeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000004293E4F0000000003 /* HotkeyMonitor.swift */; };
+		1A000007293E4F0000000004 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000006293E4F0000000004 /* ConfigurationManager.swift */; };
+		1A000009293E4F0000000005 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000008293E4F0000000005 /* AppLauncher.swift */; };
+		1A00000B293E4F0000000006 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000A293E4F0000000006 /* MenuBarController.swift */; };
+		1A00000F293E4F0000000008 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000E293E4F0000000008 /* Shortcut.swift */; };
+		1A000011293E4F0000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000010293E4F0000000009 /* Assets.xcassets */; };
+		1A000017293E4F000000000F /* AppIconExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000018293E4F0000000010 /* AppIconExtractor.swift */; };
+		1AAF6395053E324168A4431B /* FuturisticUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB8CE15258A4741C19C4DB1 /* FuturisticUI.swift */; };
+		1A000019293E4F0000000011 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00001A293E4F0000000012 /* UpdateChecker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A000000293E4F0000000001 /* KeyBoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoyApp.swift; sourceTree = "<group>"; };
+		1A000002293E4F0000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A000004293E4F0000000003 /* HotkeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyMonitor.swift; sourceTree = "<group>"; };
+		1A000006293E4F0000000004 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		1A000008293E4F0000000005 /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
+		1A00000A293E4F0000000006 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		1A00000E293E4F0000000008 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		1A000010293E4F0000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A000012293E4F000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A000013293E4F000000000B /* KeyBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A000014293E4F000000000C /* KeyBoy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyBoy.entitlements; sourceTree = "<group>"; };
+		1A000018293E4F0000000010 /* AppIconExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconExtractor.swift; sourceTree = "<group>"; };
+		1AB8CE15258A4741C19C4DB1 /* FuturisticUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturisticUI.swift; sourceTree = "<group>"; };
+		1A00001A293E4F0000000012 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A000020293E4F0000000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A000030293E4F0000000030 = {
+			isa = PBXGroup;
+			children = (
+				1A000031293E4F0000000031 /* KeyBoy */,
+				1A000032293E4F0000000032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A000031293E4F0000000031 /* KeyBoy */ = {
+			isa = PBXGroup;
+			children = (
+				1A000033293E4F0000000033 /* App */,
+				1A000034293E4F0000000034 /* Core */,
+				1A000035293E4F0000000035 /* UI */,
+				1A000036293E4F0000000036 /* Models */,
+				1A000038293E4F0000000038 /* Utilities */,
+				1A000037293E4F0000000037 /* Resources */,
+				1A000010293E4F0000000009 /* Assets.xcassets */,
+			);
+			path = KeyBoy;
+			sourceTree = "<group>";
+		};
+		1A000032293E4F0000000032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A000013293E4F000000000B /* KeyBoy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A000033293E4F0000000033 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A000000293E4F0000000001 /* KeyBoyApp.swift */,
+				1A000002293E4F0000000002 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1A000034293E4F0000000034 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A000004293E4F0000000003 /* HotkeyMonitor.swift */,
+				1A000006293E4F0000000004 /* ConfigurationManager.swift */,
+				1A000008293E4F0000000005 /* AppLauncher.swift */,
+				1A00001A293E4F0000000012 /* UpdateChecker.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A000035293E4F0000000035 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1A00000A293E4F0000000006 /* MenuBarController.swift */,
+				1AB8CE15258A4741C19C4DB1 /* FuturisticUI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1A000036293E4F0000000036 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A00000E293E4F0000000008 /* Shortcut.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A000038293E4F0000000038 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1A000018293E4F0000000010 /* AppIconExtractor.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1A000037293E4F0000000037 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A000012293E4F000000000A /* Info.plist */,
+				1A000014293E4F000000000C /* KeyBoy.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A000040293E4F0000000040 /* KeyBoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A000041293E4F0000000041 /* Build configuration list for PBXNativeTarget "KeyBoy" */;
+			buildPhases = (
+				1A000042293E4F0000000042 /* Sources */,
+				1A000020293E4F0000000020 /* Frameworks */,
+				1A000043293E4F0000000043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoy;
+			productName = KeyBoy;
+			productReference = 1A000013293E4F000000000B /* KeyBoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A000050293E4F0000000050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1A000040293E4F0000000040 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A000051293E4F0000000051 /* Build configuration list for PBXProject "KeyBoy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A000030293E4F0000000030;
+			productRefGroup = 1A000032293E4F0000000032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A000040293E4F0000000040 /* KeyBoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A000043293E4F0000000043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A000011293E4F0000000009 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A000042293E4F0000000042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A000001293E4F0000000001 /* KeyBoyApp.swift in Sources */,
+				1A000003293E4F0000000002 /* AppDelegate.swift in Sources */,
+				1A000005293E4F0000000003 /* HotkeyMonitor.swift in Sources */,
+				1A000007293E4F0000000004 /* ConfigurationManager.swift in Sources */,
+				1A000009293E4F0000000005 /* AppLauncher.swift in Sources */,
+				1A00000B293E4F0000000006 /* MenuBarController.swift in Sources */,
+				1A000017293E4F000000000F /* AppIconExtractor.swift in Sources */,
+				1A00000F293E4F0000000008 /* Shortcut.swift in Sources */,
+				1AAF6395053E324168A4431B /* FuturisticUI.swift in Sources */,
+				1A000019293E4F0000000011 /* UpdateChecker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A000060293E4F0000000060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A000061293E4F0000000061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1A000062293E4F0000000062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyBoy/Resources/KeyBoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KeyBoy/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = KeyBoyApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveed.keyboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A000063293E4F0000000063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyBoy/Resources/KeyBoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KeyBoy/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = KeyBoyApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveed.keyboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A000041293E4F0000000041 /* Build configuration list for PBXNativeTarget "KeyBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A000062293E4F0000000062 /* Debug */,
+				1A000063293E4F0000000063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A000051293E4F0000000051 /* Build configuration list for PBXProject "KeyBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A000060293E4F0000000060 /* Debug */,
+				1A000061293E4F0000000061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A000050293E4F0000000050 /* Project object */;
+}
